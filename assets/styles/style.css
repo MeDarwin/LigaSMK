@@ -6,6 +6,14 @@
   background-color: #facb3b;
 }
 
+#section-4 {
+  background-color: #fff0e5;
+}
+
+#section-7-bg {
+  background-color: #f0f3ff;
+}
+
 footer {
   background-color: #090e23;
 }
@@ -25,7 +33,11 @@ footer {
 }
 
 .fs-smaller {
-  font-size: 0.8rem;
+  font-size: 0.8rem !important;
+}
+
+.fs-mini{
+    font-size: .6rem;
 }
 
 .footer-row {
@@ -42,4 +54,60 @@ footer {
   max-width: 130px;
   background-color: whitesmoke;
   border-radius: 8px;
+}
+
+.btn-custom:hover{
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, .3);
+}
+
+.mini-shadow{
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .1);
+}
+
+span.decor::after {
+  content: "";
+  background-color: #fdd5a1;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  height: 12px;
+  width: 100%;
+  z-index: -1;
+}
+
+.new-1::before{
+    content: url(/assets/image/new-orange.png);
+    scale: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.new-2::before{
+    content: url(/assets/image/new-old-blue.png);
+    scale: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.new-3::before{
+    content: url(/assets/image/new-pink.png);
+    scale: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.new-4::before{
+    content: url(/assets/image/new-lightblue.png);
+    scale: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cat-logo{
+    background-color: #f0f3ff;
+    min-width: 45px;
 }
