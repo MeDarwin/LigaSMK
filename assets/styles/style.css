@@ -1,0 +1,45 @@
+#section-1 {
+  background-color: #f0f3ff;
+}
+
+#section-2 {
+  background-color: #facb3b;
+}
+
+footer {
+  background-color: #090e23;
+}
+
+.quote {
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+}
+
+.slogan {
+  font-size: 1rem;
+  letter-spacing: 0.25px;
+}
+
+.img-section-2 {
+  transform: scale(0.8);
+}
+
+.fs-smaller {
+  font-size: 0.8rem;
+}
+
+.footer-row {
+  height: 3.125rem;
+  margin: 0;
+}
+
+.img-brand {
+  height: 25px;
+}
+
+.download {
+  min-width: 130px;
+  max-width: 130px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
